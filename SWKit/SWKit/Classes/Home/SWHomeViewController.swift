@@ -53,7 +53,10 @@ class SWHomeViewController: UIViewController {
                          data2]
         
     }
-    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        tableView.frame = view.frame
+    }
     
     func setupUI() {
         tableView = UITableView.init(frame: view.frame, style: .grouped)

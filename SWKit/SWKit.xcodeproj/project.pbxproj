@@ -20,7 +20,6 @@
 		F2DE0B8C23B6471300AC6230 /* SWSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DE0B8B23B6471300AC6230 /* SWSize.swift */; };
 		F2DE0B8E23B6472000AC6230 /* SWColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DE0B8D23B6472000AC6230 /* SWColor.swift */; };
 		F2DE0B9323B64F6900AC6230 /* SWCircleProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DE0B9123B64F6900AC6230 /* SWCircleProgressViewController.swift */; };
-		F2DE0B9423B64F6900AC6230 /* SWCircleProgressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2DE0B9223B64F6900AC6230 /* SWCircleProgressViewController.xib */; };
 		F2DE0B9623B6525B00AC6230 /* SWCircleProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DE0B9523B6525B00AC6230 /* SWCircleProgress.swift */; };
 		F2DE0B9823B6581A00AC6230 /* SWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DE0B9723B6581A00AC6230 /* SWButton.swift */; };
 /* End PBXBuildFile section */
@@ -62,7 +61,6 @@
 		F2DE0B8B23B6471300AC6230 /* SWSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWSize.swift; sourceTree = "<group>"; };
 		F2DE0B8D23B6472000AC6230 /* SWColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWColor.swift; sourceTree = "<group>"; };
 		F2DE0B9123B64F6900AC6230 /* SWCircleProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWCircleProgressViewController.swift; sourceTree = "<group>"; };
-		F2DE0B9223B64F6900AC6230 /* SWCircleProgressViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SWCircleProgressViewController.xib; sourceTree = "<group>"; };
 		F2DE0B9523B6525B00AC6230 /* SWCircleProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWCircleProgress.swift; sourceTree = "<group>"; };
 		F2DE0B9723B6581A00AC6230 /* SWButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -188,7 +186,6 @@
 			isa = PBXGroup;
 			children = (
 				F2DE0B9123B64F6900AC6230 /* SWCircleProgressViewController.swift */,
-				F2DE0B9223B64F6900AC6230 /* SWCircleProgressViewController.xib */,
 				F2DE0B9523B6525B00AC6230 /* SWCircleProgress.swift */,
 			);
 			path = CircleProgress;
@@ -301,7 +298,6 @@
 				F2DE0B6123B6411000AC6230 /* LaunchScreen.storyboard in Resources */,
 				F2DE0B5E23B6411000AC6230 /* Assets.xcassets in Resources */,
 				F2DE0B5923B6410E00AC6230 /* Main.storyboard in Resources */,
-				F2DE0B9423B64F6900AC6230 /* SWCircleProgressViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

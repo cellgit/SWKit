@@ -21,6 +21,7 @@ class SWCircleProgressViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = .white
         title = "CircleProgress"
         
         setupUI()
@@ -49,12 +50,16 @@ class SWCircleProgressViewController: UIViewController {
         progressContainer = UIView.init(frame: f)
         self.view.addSubview(progressContainer)
         progressContainer.backgroundColor = .lightGray
-        progressContainer.isHidden = true
+//        progressContainer.isHidden = true
         // 进度条
-        let progressView = SWCircleProgress.init(frame: CGRect(x: 0, y: 0, width: width_p, height: width_p))
+        let frame = CGRect(x: 0, y: 0, width: width_p, height: width_p)
+//        let progressView = SWCircleProgress.init(frame: frame, radius: width_p/2 - 5)
+        let progressView = SWCircleProgress.init(frame: frame)
         progressContainer.addSubview(progressView)
         progressView.backgroundColor = .orange
         progressView.shapelayer.strokeEnd = 0.0
+        progressView.trackLineWidth = 8
+        progressView.shapeLineWidth = 6
         
         self.shapelayer = progressView.shapelayer
     }
